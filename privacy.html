@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Sentinel System</title>
+<meta name="description" content="Privacy Policy for the Sentinel System Discord bot.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<img src="avatar.png" alt="Sentinel System logo" width="40" height="40">
+<strong>Sentinel System</strong>
+<nav><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+</div></header>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: November 25, 2026</p>
+
+<p>This policy explains what information the Sentinel System Discord bot (“the Bot”) handles, why, and what choices you have.</p>
+
+<div class="note">In short: the Bot stores only what it needs to run moderation features (settings and moderation records). It does not sell data, does not read private messages, and does not store the content of ordinary server messages.</div>
+
+<h2>1. Information we handle</h2>
+<table>
+<tr><th>Data</th><th>Why</th><th>Stored?</th></tr>
+<tr><td>Server settings: server ID, channel and role IDs, feature options, trusted-user IDs, blocked words, voice channel ID</td><td>To run and remember your configuration</td><td>Yes, in the Bot’s database</td></tr>
+<tr><td>Moderation records: user ID, moderator ID, action type (warn, kick, ban, timeout, jail), reason, time</td><td>Case history, warning escalation, <code>/history</code></td><td>Yes, in the Bot’s database</td></tr>
+<tr><td>Jail records: user ID, IDs of roles removed, reason, moderator ID, release time</td><td>To restore a member’s roles when released</td><td>Yes, until released</td></tr>
+<tr><td>Message content and attachment names in real time</td><td>AutoMod and Honeypot checks</td><td>Not stored in the database; a small cache of recent messages (at most 300) is kept in memory only</td></tr>
+<tr><td>Raid, spam and anti-nuke counters</td><td>Detecting flooding and mass actions</td><td>In memory only, short-lived</td></tr>
+<tr><td>Account creation date and join date</td><td>Raid detection, honeypot and log reports</td><td>Shown in logs; not stored by the Bot</td></tr>
+</table>
+<p>The Bot does not collect passwords, payment details, email addresses, IP addresses or the content of direct messages sent to it.</p>
+
+<h2>2. Logs inside your server</h2>
+<p>If a server enables logging, the Bot posts events into the log and alert channels chosen by that server’s administrators. These can include edited or deleted message content, honeypot triggers, member joins and leaves, role changes and voice activity. These posts are stored by Discord inside that server and are controlled by its administrators, not by us.</p>
+
+<h2>3. Direct messages</h2>
+<p>The Bot may send a direct message to a member to tell them about an action taken against them (for example a ban, kick, timeout or jail) and the reason. The Bot does not read replies sent to it in direct messages.</p>
+
+<h2>4. How we use information</h2>
+<p>Only to provide the features described above, keep the Bot secure and fix problems. We do not use data for advertising or profiling.</p>
+
+<h2>5. Sharing</h2>
+<p>We do not sell or rent data. Data is processed through Discord’s platform, and the Bot runs on third-party hosting (Wispbyte) where its database is stored. We may disclose information if the law requires it.</p>
+
+<h2>6. Retention and deletion</h2>
+<ul>
+<li>Settings and moderation records are kept while the Bot is in your server.</li>
+<li>Jail records are removed when the member is released.</li>
+<li>You can ask us to delete the data for your server or for your own user ID (see Contact). Server administrators can also remove blocked words, trusted users and honeypots with the Bot’s commands, and can clear warnings with <code>/clearwarns</code>.</li>
+</ul>
+
+<h2>7. Your choices and rights</h2>
+<p>You may ask what moderation records the Bot holds about your user ID, ask for correction, or ask for deletion. Contact us and include your Discord user ID. Depending on where you live, you may have additional rights under local law.</p>
+
+<h2>8. Security</h2>
+<p>We keep the Bot’s token and database private and restrict access to the hosting account. No system is perfectly secure, so we cannot guarantee absolute security.</p>
+
+<h2>9. Children</h2>
+<p>The Bot follows Discord’s age requirements and is not directed at children under 13. If you believe the Bot holds data about a child under the minimum age, contact us and we will remove it.</p>
+
+<h2>10. Changes</h2>
+<p>We may update this policy. The date at the top shows the latest version.</p>
+
+<h2>11. Contact</h2>
+<p>Discord: mohammed._.249</p>
+
+<section class="ar" lang="ar">
+<h2>ملخص بالعربية</h2>
+<p>سياسة الخصوصية لبوت Sentinel System باختصار:</p>
+<ul>
+<li><strong>ما نخزّنه:</strong> إعدادات السيرفر (آيدي الرومات والرتب وخيارات الميزات)، وسجلات الإشراف (آيدي العضو والمشرف ونوع الإجراء والسبب والوقت)، وسجلات السجن (الرتب المسحوبة لإرجاعها عند الإفراج).</li>
+<li><strong>ما لا نخزّنه:</strong> محتوى رسائل السيرفر العادية لا يُحفظ في قاعدة البيانات؛ يُفحص لحظياً للحماية التلقائية، ويبقى عدد قليل من الرسائل (حتى 300) في الذاكرة فقط. لا نجمع كلمات مرور ولا بيانات دفع ولا بريد إلكتروني ولا عناوين IP، ولا نقرأ الرسائل الخاصة.</li>
+<li><strong>السجلات:</strong> إذا فعّل السيرفر السجلات فالبوت ينشر الأحداث في رومات يحددها الإداريون، وتبقى تحت تحكمهم في ديسكورد.</li>
+<li><strong>الرسائل الخاصة:</strong> قد يرسل البوت للعضو رسالة بالإجراء المتخذ ضده وسببه.</li>
+<li><strong>المشاركة:</strong> لا نبيع البيانات. يعمل البوت على استضافة طرف ثالث (Wispbyte).</li>
+<li><strong>الحذف:</strong> تُحفظ البيانات طالما البوت في السيرفر، ويمكنك طلب حذف بيانات السيرفر أو بياناتك بالتواصل معنا.</li>
+<li>للتواصل: Discord: mohammed._.249</li>
+</ul>
+</section>
+
+</main>
+<footer>© 2026 Sentinel System · Contact: Discord: mohammed._.249</footer>
+</body>
+</html>
